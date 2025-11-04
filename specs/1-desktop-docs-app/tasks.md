@@ -91,16 +91,16 @@
 
 ## Phase 7 — [US5] Privacy & Transparency Surfaces
 ## Phase 8 — [US7] Security & Encryption
-- [ ] T089 [US7] Design AES‑256‑GCM encryption schema for `.nota` in app/security/encryption.md  <!-- keep -->
-- [ ] T090 [US7] Specify key management (keychain/master password) in app/security/key-management.md
-- [ ] T091 [US7] Define PII detection patterns (email/phone/SSN) in app/security/pii-detection.md
-- [ ] T092 [US7] Specify PII filtering before AI calls in app/security/pii-filtering.md
-- [ ] T093 [US7] Design app lock (password/biometric) and session timeout in app/security/app-lock.md
-- [ ] T094 [US7] Define log sanitization (masking/hashing) rules in app/security/log-sanitization.md
-- [ ] T095 [US7] Specify audit log schema (auth failures/encryption failures) in app/security/audit-log.md
-- [ ] T096 [US7] Add XSS/injection prevention in editor input in app/security/input-sanitization.md
-- [ ] T097 [US7] Define file upload validation and size limits in app/security/file-upload.md
-- [ ] T098 [US7] Specify memory cleanup (key zeroization) and swap prevention in app/security/memory-protection.md
+- [x] T089 [US7] Design AES‑256‑GCM encryption schema for `.nota` in app/security/encryption.md  <!-- keep -->
+- [x] T090 [US7] Specify key management (keychain/master password) in app/security/key-management.md
+- [x] T091 [US7] Define PII detection patterns (email/phone/SSN) in app/security/pii-detection.md
+- [x] T092 [US7] Specify PII filtering before AI calls in app/security/pii-filtering.md
+- [x] T093 [US7] Design app lock (password/biometric) and session timeout in app/security/app-lock.md
+- [x] T094 [US7] Define log sanitization (masking/hashing) rules in app/security/log-sanitization.md
+- [x] T095 [US7] Specify audit log schema (auth failures/encryption failures) in app/security/audit-log.md
+- [x] T096 [US7] Add XSS/injection prevention in editor input in app/security/input-sanitization.md
+- [x] T097 [US7] Define file upload validation and size limits in app/security/file-upload.md
+- [x] T098 [US7] Specify memory cleanup (key zeroization) and swap prevention in app/security/memory-protection.md
 
 ## Phase 8 — [US8] Plugin System
 - [ ] T099 [US8] Define manifest.json schema in app/plugins/manifest-schema.md  <!-- keep; local install only -->
