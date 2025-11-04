@@ -167,21 +167,21 @@
 - [x] T130 [US1] Persist/restore sidebar widths (global default + session) in app/ui/sidebar/state.md
 - [x] T131 [US1] A11y checklist (WCAG AA) and screen reader labels in app/a11y/checklist.md
 - [x] T132 [US1] Focus order and keyboard navigation spec in app/a11y/keyboard.md
-- [ ] T133 [US4] Threat model and security review checklist in app/security/threat-model.md
-- [ ] T134 [US4] Golden set & metrics for converters in app/import/goldenset.md
-- [ ] T135 [US4] Block-level 3-way merge policy & patch card UX in app/sync/merge-policy.md
-- [ ] T136 [US1] Define theme JSON schema and token map in app/theme/schema.md
-- [ ] T137 [US1] Theme switcher UX and persistence in app/theme/switcher.md
-- [ ] T138 [US1] Advanced table behaviors (merge/sort/header) in app/editor/table/advanced.md
-- [ ] T139 [US1] Inline/block LaTeX spec in app/editor/latex/spec.md
-- [ ] T140 [US1] Mermaid diagrams (toggle) in app/editor/diagram/mermaid.md  <!-- Deferred: M2 -->
-- [ ] T141 [US1] Media embed (image/audio/video) a11y/caption in app/editor/media/embed.md
-- [ ] T142 [US1] Citation/bibliography model in app/editor/citation/model.md  <!-- Deferred: M2 -->
-- [ ] T143 [US4] HTML/Markdown import mapping rules in app/import/html-md.md
-- [ ] T144 [US4] Reverse export `.nota`→Markdown/Docx rules in app/export/reverse.md
-- [ ] T145 [US4] Query language grammar/operators in app/search/query-language.md
-- [ ] T146 [US4] Similarity A/B experiment design in app/search/ab-testing.md
-- [ ] T147 [US4] Index rebuild strategy and progress UI in app/search/rebuild.md
+- [x] T133 [US4] Threat model and security review checklist in app/security/threat-model.md
+- [x] T134 [US4] Golden set & metrics for converters in app/import/goldenset.md
+- [x] T135 [US4] Block-level 3-way merge policy & patch card UX in app/sync/merge-policy.md
+- [x] T136 [US1] Define theme JSON schema and token map in app/theme/schema.md
+- [x] T137 [US1] Theme switcher UX and persistence in app/theme/switcher.md
+- [x] T138 [US1] Advanced table behaviors (merge/sort/header) in app/editor/table/advanced.md
+- [x] T139 [US1] Inline/block LaTeX spec in app/editor/latex/spec.md
+- [x] T140 [US1] Mermaid diagrams (toggle) in app/editor/diagram/mermaid.md  <!-- Deferred: M2 -->
+- [x] T141 [US1] Media embed (image/audio/video) a11y/caption in app/editor/media/embed.md
+- [x] T142 [US1] Citation/bibliography model in app/editor/citation/model.md  <!-- Deferred: M2 -->
+- [x] T143 [US4] HTML/Markdown import mapping rules in app/import/html-md.md
+- [x] T144 [US4] Reverse export `.nota`→Markdown/Docx rules in app/export/reverse.md
+- [x] T145 [US4] Query language grammar/operators in app/search/query-language.md
+- [x] T146 [US4] Similarity A/B experiment design in app/search/ab-testing.md
+- [x] T147 [US4] Index rebuild strategy and progress UI in app/search/rebuild.md
 
 ## Phase 11 — Collaboration & Sync
 - [x] T158 [US1] CRDT layer design (block granularity) in app/collab/crdt.md  <!-- Deferred: M2 -->
