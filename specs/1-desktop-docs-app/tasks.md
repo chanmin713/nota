@@ -184,11 +184,11 @@
 - [ ] T147 [US4] Index rebuild strategy and progress UI in app/search/rebuild.md
 
 ## Phase 11 — Collaboration & Sync
-- [ ] T158 [US1] CRDT layer design (block granularity) in app/collab/crdt.md  <!-- Deferred: M2 -->
-- [ ] T159 [US1] Suggestion mode and review flow in app/collab/suggest.md
-- [ ] T160 [US1] Comments/mentions model and notifications in app/collab/comments.md
-- [ ] T161 [US4] Sync protocol (gRPC/HTTPS) and RBAC in app/sync/protocol.md
-- [ ] T162 [US4] Incremental patch sync and audit logging in app/sync/incremental.md
+- [x] T158 [US1] CRDT layer design (block granularity) in app/collab/crdt.md  <!-- Deferred: M2 -->
+- [x] T159 [US1] Suggestion mode and review flow in app/collab/suggest.md
+- [x] T160 [US1] Comments/mentions model and notifications in app/collab/comments.md
+- [x] T161 [US4] Sync protocol (gRPC/HTTPS) and RBAC in app/sync/protocol.md
+- [x] T162 [US4] Incremental patch sync and audit logging in app/sync/incremental.md
 
 ## Phase 12 — Distribution & OS Integration
 - [x] T163 [US1] Installer packaging and code signing in app/distribution/installer.md  <!-- keep -->
