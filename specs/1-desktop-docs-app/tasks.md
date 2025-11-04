@@ -122,11 +122,11 @@
 - [ ] T052 [P] [US6] Define prompt templates for outline+first-paragraph in app/ai/prompts/draft.md
 - [ ] T053 [US6] Specify outline generation rules (depth, number of items) in app/editor/assist/draft-outline.md
 - [ ] T054 [US6] Define insertion behavior (preview→apply, placement rules) in app/editor/assist/draft-insert.md
-- [ ] T022 [US5] Design data path badges UI in app/privacy/ui/data-path-badges.md
-- [ ] T023 [P] [US5] Design consent dialogs content in app/privacy/ui/consent-dialogs.md
-- [ ] T024 [US5] Design AI call log viewer spec in app/privacy/ui/log-viewer.md
- - [ ] T037 [US5] Specify Sync/Share switch behavior and states in app/privacy/ui/sync-switch.md
- - [ ] T042 [US5] Specify document version history/diff/rollback UX in app/privacy/ui/versioning.md
+ - [x] T022 [US5] Design data path badges UI in app/privacy/ui/data-path-badges.md
+ - [x] T023 [P] [US5] Design consent dialogs content in app/privacy/ui/consent-dialogs.md
+ - [x] T024 [US5] Design AI call log viewer spec in app/privacy/ui/log-viewer.md
+ - [x] T037 [US5] Specify Sync/Share switch behavior and states in app/privacy/ui/sync-switch.md
+ - [x] T042 [US5] Specify document version history/diff/rollback UX in app/privacy/ui/versioning.md
 
 ## Phase 10 — Testing & QA
 - [ ] T148 Define acceptance test scenarios per user story in qa/acceptance/scenarios.md
