@@ -141,11 +141,11 @@
 - [ ] T157 CI pipeline design and reporting in qa/ci/pipeline.md
 
 ## Final Phase — Polish & Cross-Cutting
-- [ ] T025 Define MVP toggle defaults in app/config/feature-flags.json
-- [ ] T026 Add performance checklist for large docs in app/editor/perf/checklist.md
-- [ ] T027 Add UX guardrails for ontology complexity in app/ontology/ux/guardrails.md
- - [ ] T029 Add success-criteria measurement plan in specs/1-desktop-docs-app/metrics.md
- - [ ] T030 Script offline AI summary timing (≤10s) scenario in specs/1-desktop-docs-app/quickstart.md
+- [x] T025 Define MVP toggle defaults in app/config/feature-flags.json
+- [x] T026 Add performance checklist for large docs in app/editor/perf/checklist.md
+- [x] T027 Add UX guardrails for ontology complexity in app/ontology/ux/guardrails.md
+ - [x] T029 Add success-criteria measurement plan in specs/1-desktop-docs-app/metrics.md
+ - [x] T030 Script offline AI summary timing (≤10s) scenario in specs/1-desktop-docs-app/quickstart.md
  - [ ] T084 Define `.nota` container spec and JSON schemas in app/format/spec.md
  - [ ] T085 Implement export (writer) spec: content/ontology/prov/meta in app/format/writer.md
  - [ ] T086 Implement import (reader) spec with validation in app/format/reader.md
