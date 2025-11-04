@@ -103,19 +103,19 @@
 - [x] T098 [US7] Specify memory cleanup (key zeroization) and swap prevention in app/security/memory-protection.md
 
 ## Phase 8 — [US8] Plugin System
-- [ ] T099 [US8] Define manifest.json schema in app/plugins/manifest-schema.md  <!-- keep; local install only -->
-- [ ] T100 [US8] Specify permission model and prompts in app/plugins/permissions.md
-- [ ] T101 [US8] Design sandbox/IPC execution model in app/plugins/sandbox-ipc.md
-- [ ] T102 [US8] Public APIs spec (Editor/Ontology/AI/Command/Sidebar/Storage) in app/plugins/public-apis.md
-- [ ] T103 [US8] Define hooks lifecycle (draft/fim/rag/evidence/save/validate) in app/plugins/hooks.md
-- [ ] T104 [US8] Bundle/signature/hash verification spec in app/plugins/distribution.md
-- [ ] T105 [US8] MVP loader/validator/permission prompts flow in app/plugins/loader.md
-- [ ] T106 [US8] Define MCP provider registry schema in app/mcp/registry.md  <!-- MVP: single provider RO -->
-- [ ] T107 [US8] Specify MCP client lifecycle (connect/health/retry) in app/mcp/client.md
-- [ ] T108 [US8] Map permissions for MCP tools (network/file/model) in app/mcp/permissions.md
-- [ ] T109 [US8] Implement proxy/logging/rate-limit design in app/mcp/proxy.md
-- [ ] T110 [US8] Integrate '/' command search with MCP tools in app/mcp/command-integration.md
-- [ ] T111 [US8] Sidebar result panel with evidence anchors in app/mcp/sidebar.md
+- [x] T099 [US8] Define manifest.json schema in app/plugins/manifest-schema.md  <!-- keep; local install only -->
+- [x] T100 [US8] Specify permission model and prompts in app/plugins/permissions.md
+- [x] T101 [US8] Design sandbox/IPC execution model in app/plugins/sandbox-ipc.md
+- [x] T102 [US8] Public APIs spec (Editor/Ontology/AI/Command/Sidebar/Storage) in app/plugins/public-apis.md
+- [x] T103 [US8] Define hooks lifecycle (draft/fim/rag/evidence/save/validate) in app/plugins/hooks.md
+- [x] T104 [US8] Bundle/signature/hash verification spec in app/plugins/distribution.md
+- [x] T105 [US8] MVP loader/validator/permission prompts flow in app/plugins/loader.md
+- [x] T106 [US8] Define MCP provider registry schema in app/mcp/registry.md  <!-- MVP: single provider RO -->
+- [x] T107 [US8] Specify MCP client lifecycle (connect/health/retry) in app/mcp/client.md
+- [x] T108 [US8] Map permissions for MCP tools (network/file/model) in app/mcp/permissions.md
+- [x] T109 [US8] Implement proxy/logging/rate-limit design in app/mcp/proxy.md
+- [x] T110 [US8] Integrate '/' command search with MCP tools in app/mcp/command-integration.md
+- [x] T111 [US8] Sidebar result panel with evidence anchors in app/mcp/sidebar.md
 
 ## Phase 9 — [US6] Draft Mode (New Doc Wizard)
 - [x] T051 [US6] Specify 3-question wizard (purpose/tone/audience) UI in app/editor/ui/draft-wizard.md
