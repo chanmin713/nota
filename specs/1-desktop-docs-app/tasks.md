@@ -162,11 +162,11 @@
 - [x] T125 [US4] Link graph indexing and IRI alias search in app/search/link-graph.md
 - [x] T126 [P] [US4] File conversion pipeline (PDF/PPTX/DOCX→.nota) in app/import/pipeline.md
 - [x] T127 [US4] Evidence anchors from sources (page/slide/range) in app/import/evidence.md
-- [ ] T128 [US1] Sidebar resize interaction spec (drag handle/snap/dblclick) in app/ui/sidebar/resize.md
-- [ ] T129 [US1] Implement constraints (min/max) and keyboard resize bindings in app/ui/sidebar/constraints.md
-- [ ] T130 [US1] Persist/restore sidebar widths (global default + session) in app/ui/sidebar/state.md
-- [ ] T131 [US1] A11y checklist (WCAG AA) and screen reader labels in app/a11y/checklist.md
-- [ ] T132 [US1] Focus order and keyboard navigation spec in app/a11y/keyboard.md
+- [x] T128 [US1] Sidebar resize interaction spec (drag handle/snap/dblclick) in app/ui/sidebar/resize.md
+- [x] T129 [US1] Implement constraints (min/max) and keyboard resize bindings in app/ui/sidebar/constraints.md
+- [x] T130 [US1] Persist/restore sidebar widths (global default + session) in app/ui/sidebar/state.md
+- [x] T131 [US1] A11y checklist (WCAG AA) and screen reader labels in app/a11y/checklist.md
+- [x] T132 [US1] Focus order and keyboard navigation spec in app/a11y/keyboard.md
 - [ ] T133 [US4] Threat model and security review checklist in app/security/threat-model.md
 - [ ] T134 [US4] Golden set & metrics for converters in app/import/goldenset.md
 - [ ] T135 [US4] Block-level 3-way merge policy & patch card UX in app/sync/merge-policy.md
