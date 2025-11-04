@@ -118,10 +118,10 @@
 - [ ] T111 [US8] Sidebar result panel with evidence anchors in app/mcp/sidebar.md
 
 ## Phase 9 — [US6] Draft Mode (New Doc Wizard)
-- [ ] T051 [US6] Specify 3-question wizard (purpose/tone/audience) UI in app/editor/ui/draft-wizard.md
-- [ ] T052 [P] [US6] Define prompt templates for outline+first-paragraph in app/ai/prompts/draft.md
-- [ ] T053 [US6] Specify outline generation rules (depth, number of items) in app/editor/assist/draft-outline.md
-- [ ] T054 [US6] Define insertion behavior (preview→apply, placement rules) in app/editor/assist/draft-insert.md
+- [x] T051 [US6] Specify 3-question wizard (purpose/tone/audience) UI in app/editor/ui/draft-wizard.md
+- [x] T052 [P] [US6] Define prompt templates for outline+first-paragraph in app/ai/prompts/draft.md
+- [x] T053 [US6] Specify outline generation rules (depth, number of items) in app/editor/assist/draft-outline.md
+- [x] T054 [US6] Define insertion behavior (preview→apply, placement rules) in app/editor/assist/draft-insert.md
  - [x] T022 [US5] Design data path badges UI in app/privacy/ui/data-path-badges.md
  - [x] T023 [P] [US5] Design consent dialogs content in app/privacy/ui/consent-dialogs.md
  - [x] T024 [US5] Design AI call log viewer spec in app/privacy/ui/log-viewer.md
