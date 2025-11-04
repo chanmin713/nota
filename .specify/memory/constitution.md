@@ -1,50 +1,64 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+## Nota Constitution
 
-## Core Principles
+### 프로젝트명
+- Nota
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### 핵심 미션
+- 문서 작성을 중심으로 AI와 온톨로지를 네이티브하게 결합해, 노션/옵시디언/구글독스를 대체할 수 있는 개인/팀 문서 플랫폼을 제공한다.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+## 핵심 원칙(초안)
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### 1) 로컬‑퍼스트 AI 접근
+- MUST: Ollama 등 로컬 모델 우선 접근을 기본값으로 한다.
+- MUST: 클라우드 호출이 필요한 경우 명시적 동의와 투명한 기록을 남긴다.
+- SHOULD: 모델/프롬프트/데이터 소유권은 사용자에게 귀속된다.
+- Rationale: 개인/스타트업 환경에서 보안/비용/속도를 최적화.
+ - SHOULD: 개인 워크스페이스는 100% 로컬 동작, 공유가 필요할 때만 Sync/Share 스위치를 통해 동기화/공유를 명시적으로 활성화한다.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### 2) 온톨로지‑네이티브 설계
+- MUST: 문서/블록/개념/관계가 온톨로지 레벨에서 일급 시민이다.
+- SHOULD: 초기엔 약한 온톨로지(태그/링크/속성)로 시작, 점진적 정교화.
+- MUST: AI는 온톨로지 스키마와 동기화하여 추론/추천/자동 분류를 수행한다.
+- Rationale: 장기적으로 지식 관리/검색/자동화 품질 극대화.
+ - SHOULD: 사용자에게 보이지 않는 내부 IRI를 사용해 식별 안정성을 확보한다.
+ - SHOULD: 변경/출처 이력을 위한 PROV(계보) 메타데이터를 기본 저장한다.
+ - SHOULD: SHACL‑lite 수준의 스키마 검증 경고를 제공해 데이터 품질을 높인다.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### 7) AI‑네이티브 원칙
+- MUST: Model‑in‑the‑loop가 기본값이며, 주요 작성/편집/검색 플로우에 AI가 끼어든다.
+- SHOULD: 사용자 피드백(수정/수락/거부)을 학습 신호로 받아 재랭킹 루프를 형성한다.
+- SHOULD: Task Routing(질의·요청 유형별 적합 모델/프로시저 라우팅)을 지원한다.
+- MUST: Evidence‑first UX를 제공하여, AI 응답의 근거(문서 스니펫/메타데이터/스코어)를 우선 제시한다.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### 3) 리치텍스트 × Markdown 양면성
+- MUST: 위지윅 리치텍스트 경험을 기본으로 제공하되 Markdown 호환 유지.
+- MUST: 헤더/리스트/테이블 등 구조화 UI 제공(구글 독스처럼 즉시 입력 가능).
+- SHOULD: / 명령으로 AI 질의/액션, @ 언급으로 문서/개체 참조.
+- Rationale: 학습 곡선 최소화 + 파워유저 효율성.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### 4) 에디터 생산성
+- MUST: Tab 기반 fill(자동완성/확장) 기능 제공(“커서” 유사).
+- MUST: 오른쪽 사이드바 AI 에이전트로 문서 Q&A/요약/편집 지원.
+- SHOULD: 명령 팔레트(/, @)는 키보드 중심 워크플로우에 최적화.
+- Rationale: 작성 흐름의 중단 없는 문서 생산성.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### 5) 프라이버시/투명성
+- MUST: 데이터 경로(로컬/원격), 모델 호출 로그, 권한 요청을 투명하게 표시.
+- MUST: PII/민감정보 보호 기본값(로컬 격리, 옵트인 동기화).
+- Rationale: 개인/팀 신뢰 확보.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### 6) 증분적 전달과 단순성
+- MUST: MVP → 확장 전략. 과설계를 피하고 사용자 가치 중심으로 릴리스.
+- SHOULD: 기능 토글/실험 플래그로 위험 최소화.
+- Rationale: 빠른 학습/피드백 루프.
 
-## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+## 거버넌스
+- 버전 정책(헌법): 주(MAJOR)=원칙 재정의/삭제, 부(MINOR)=원칙 추가/확대, 패치(PATCH)=비의미 변화.
+- 개정 절차: 변경 제안 → 영향도 검토 → 합의 → 버전 상향/날짜 ISO 기록.
+- 준수 점검: 스펙/플랜/태스크 생성 시 헌법 준수 체크 게이트 운영.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+## 추가 지침
+- 타겟 사용자: 개인/소규모 스타트업. 온보딩 마찰 최소화.
+- 범위 경계: 초기엔 온톨로지 약하게(태그/링크/간단 속성) → 이후 스키마/규칙/추론 강화.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 0.1.0 | **Ratified**: 2025-11-04 | **Last Amended**: 2025-11-04
