@@ -65,10 +65,10 @@
 - [x] T017 [P] [US3] Specify mentions resolution rules in app/commands/mentions/rules.md
 - [x] T018 [US3] Define execution log format in app/commands/logs/format.md
 - [x] T112 [US3] Implement `[[` link search dropdown and new-doc action in app/editor/ui/link-insert.md
-- [ ] T113 [US4] Build backlink index update on save (with snippet) in app/ontology/backlinks.md
+ - [x] T113 [US4] Build backlink index update on save (with snippet) in app/ontology/backlinks.md
 - [x] T114 [US3] Link preview card spec (hover/panel) in app/editor/ui/link-preview.md
-- [ ] T115 [US4] Broken link detection and resolution flows in app/ontology/broken-links.md
-- [ ] T116 [US4] Title sync on rename (display text update, override rules) in app/ontology/title-sync.md
+ - [x] T115 [US4] Broken link detection and resolution flows in app/ontology/broken-links.md
+ - [x] T116 [US4] Title sync on rename (display text update, override rules) in app/ontology/title-sync.md
 
 ## Phase 6 — [US4] Ontology (Tags/Links/Properties) + Search
 - [x] T019 [US4] Define tag/link/property schemas in app/ontology/schemas.md
