@@ -71,15 +71,15 @@
 - [ ] T116 [US4] Title sync on rename (display text update, override rules) in app/ontology/title-sync.md
 
 ## Phase 6 — [US4] Ontology (Tags/Links/Properties) + Search
-- [ ] T019 [US4] Define tag/link/property schemas in app/ontology/schemas.md
-- [ ] T020 [P] [US4] Define search/filter query syntax in app/search/query.md
-- [ ] T021 [US4] Map AI metadata suggestions UX in app/ontology/ai-suggestions.md
- - [ ] T034 [US4] Specify internal IRI scheme and mapping policy in app/ontology/iri.md
- - [ ] T035 [US4] Define PROV metadata schema and storage plan in app/ontology/prov.md
- - [ ] T036 [US4] Draft SHACL-lite validation rules and warnings in app/ontology/shacl-lite.md
- - [ ] T043 [US4] Specify CRUD UX for tags/links/properties in app/ontology/ux/crud.md
- - [ ] T044 [US4] Define validation/constraints (unique tags, no self-loop, property limits) in app/ontology/validation.md
- - [ ] T045 [US4] Specify filter UI and acceptance criteria in app/search/filter-ui.md
+- [x] T019 [US4] Define tag/link/property schemas in app/ontology/schemas.md
+- [x] T020 [P] [US4] Define search/filter query syntax in app/search/query.md
+- [x] T021 [US4] Map AI metadata suggestions UX in app/ontology/ai-suggestions.md
+ - [x] T034 [US4] Specify internal IRI scheme and mapping policy in app/ontology/iri.md
+ - [x] T035 [US4] Define PROV metadata schema and storage plan in app/ontology/prov.md
+ - [x] T036 [US4] Draft SHACL-lite validation rules and warnings in app/ontology/shacl-lite.md
+ - [x] T043 [US4] Specify CRUD UX for tags/links/properties in app/ontology/ux/crud.md
+ - [x] T044 [US4] Define validation/constraints (unique tags, no self-loop, property limits) in app/ontology/validation.md
+ - [x] T045 [US4] Specify filter UI and acceptance criteria in app/search/filter-ui.md
  - [ ] T076 [US4] Design schema registry (versioned JSON) in app/ontology/schema/registry.md
  - [ ] T077 [US4] Specify entity types/fields/constraints extensibility in app/ontology/schema/types.md
  - [ ] T078 [US4] Define relation metadata (directionality/multiplicity/inverse) in app/ontology/schema/relations.md
