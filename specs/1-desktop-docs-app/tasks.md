@@ -4,56 +4,56 @@
 > Phase 1/2는 공통 기반 작업으로 의도적으로 스토리 라벨을 사용하지 않습니다.
 
 ## Phase 1 — Setup
-- [ ] T001 Create project structure directories in app/: app/editor/, app/ai/, app/commands/, app/ontology/, app/privacy/, app/search/
-- [ ] T002 Create feature flags file for MVP toggles in app/config/feature-flags.json
-- [ ] T003 Add AI call log storage placeholder in app/privacy/logs/README.md
-- [ ] T004 Create ontology store skeleton in app/ontology/README.md
-- [ ] T005 Create README for local model detection flow in app/ai/README.md
+- [x] T001 Create project structure directories in app/: app/editor/, app/ai/, app/commands/, app/ontology/, app/privacy/, app/search/
+- [x] T002 Create feature flags file for MVP toggles in app/config/feature-flags.json
+- [x] T003 Add AI call log storage placeholder in app/privacy/logs/README.md
+- [x] T004 Create ontology store skeleton in app/ontology/README.md
+- [x] T005 Create README for local model detection flow in app/ai/README.md
 
 ## Phase 2 — Foundational
-- [ ] T006 Define keyboard shortcuts map in app/commands/shortcuts.md
-- [ ] T007 Create data model doc from entities in specs/1-desktop-docs-app/data-model.md
-- [ ] T008 Create contracts skeleton for actions in specs/1-desktop-docs-app/contracts/README.md
-- [ ] T009 Add quickstart usage scenarios in specs/1-desktop-docs-app/quickstart.md
+- [x] T006 Define keyboard shortcuts map in app/commands/shortcuts.md
+- [x] T007 Create data model doc from entities in specs/1-desktop-docs-app/data-model.md
+- [x] T008 Create contracts skeleton for actions in specs/1-desktop-docs-app/contracts/README.md
+- [x] T009 Add quickstart usage scenarios in specs/1-desktop-docs-app/quickstart.md
 
 ## Phase 3 — [US1] Editor Core (WYSIWYG + Markdown)
-- [ ] T010 [US1] Define editor toolbar/ribbon spec in app/editor/ui/toolbar.md
-- [ ] T011 [P] [US1] Define Markdown import/export rules in app/editor/io/markdown-rules.md
-- [ ] T012 [US1] Define Tab-based fill behaviors and acceptance in app/editor/assist/tab-fill.md
+- [x] T010 [US1] Define editor toolbar/ribbon spec in app/editor/ui/toolbar.md
+- [x] T011 [P] [US1] Define Markdown import/export rules in app/editor/io/markdown-rules.md
+- [x] T012 [US1] Define Tab-based fill behaviors and acceptance in app/editor/assist/tab-fill.md
  - [ ] T028 [US1] Define Docx export scope and mapping in app/editor/io/docx-export.md  <!-- Gated by feature flag: docxExport (plan.md M2 기본 OFF) -->
- - [ ] T038 [US1] Specify hidden block engine model (blocks/inline graph) in app/editor/engine/blocks.md
- - [ ] T039 [US1] Define FIM matrix (Word/Sentence/Paragraph × Tab/→/Click/Typing) in app/editor/assist/fim-matrix.md
- - [ ] T055 [US1] Specify FIM inputs (prefix/suffix 300–800t) in app/editor/assist/fim-inputs.md
- - [ ] T056 [US1] Define stop rules per grain (Word/Sentence/Paragraph) in app/editor/assist/fim-stop-rules.md
- - [ ] T057 [US1] Implement candidate generation (2–3) spec in app/editor/assist/fim-candidates.md
- - [ ] T058 [US1] Specify lightweight cross-encoder reranking in app/ai/rerank/cross-encoder.md
- - [ ] T059 [US1] Define ghost suggestion UX policy in app/editor/ui/ghost-suggestion.md
- - [ ] T060 [US1] Add latency measurement plan (Word≤80ms/Sent≤150ms/Para 300–800ms, 95p) in specs/1-desktop-docs-app/metrics.md
- - [ ] T046 [US1] Specify markdown auto-recognition rules (#, -, 1.) in app/editor/io/markdown-auto.md
- - [ ] T047 [P] [US1] Define paste preservation policy in app/editor/io/paste-policy.md
- - [ ] T048 [US1] Define block attributes (ID/IRI/anchor/version/comments/patch) in app/editor/engine/block-attrs.md
- - [ ] T049 [US1] Set default FIM grain to Sentence with settings in app/editor/assist/fim-settings.md
- - [ ] T050 [US1] Specify patch card(diff) UX and merge rules in app/editor/ui/patch-card.md
+ - [x] T038 [US1] Specify hidden block engine model (blocks/inline graph) in app/editor/engine/blocks.md
+ - [x] T039 [US1] Define FIM matrix (Word/Sentence/Paragraph × Tab/→/Click/Typing) in app/editor/assist/fim-matrix.md
+ - [x] T055 [US1] Specify FIM inputs (prefix/suffix 300–800t) in app/editor/assist/fim-inputs.md
+ - [x] T056 [US1] Define stop rules per grain (Word/Sentence/Paragraph) in app/editor/assist/fim-stop-rules.md
+ - [x] T057 [US1] Implement candidate generation (2–3) spec in app/editor/assist/fim-candidates.md
+ - [x] T058 [US1] Specify lightweight cross-encoder reranking in app/ai/rerank/cross-encoder.md
+ - [x] T059 [US1] Define ghost suggestion UX policy in app/editor/ui/ghost-suggestion.md
+ - [x] T060 [US1] Add latency measurement plan (Word≤80ms/Sent≤150ms/Para 300–800ms, 95p) in specs/1-desktop-docs-app/metrics.md
+ - [x] T046 [US1] Specify markdown auto-recognition rules (#, -, 1.) in app/editor/io/markdown-auto.md
+ - [x] T047 [P] [US1] Define paste preservation policy in app/editor/io/paste-policy.md
+ - [x] T048 [US1] Define block attributes (ID/IRI/anchor/version/comments/patch) in app/editor/engine/block-attrs.md
+ - [x] T049 [US1] Set default FIM grain to Sentence with settings in app/editor/assist/fim-settings.md
+ - [x] T050 [US1] Specify patch card(diff) UX and merge rules in app/editor/ui/patch-card.md
 
 ## Phase 4 — [US2] AI Sidebar (Local-first Ollama)
-- [ ] T013 [US2] Specify sidebar Q&A/요약/편집 flows in app/ai/sidebar/flows.md
-- [ ] T014 [P] [US2] Specify local model detection & fallback consent flow in app/ai/sidebar/local-first.md
-- [ ] T015 [US2] Define AI call logging schema in app/privacy/logs/schema.md
- - [ ] T031 [US2] Design evidence-first panel layout (snippets/refs/scores) in app/ai/sidebar/evidence.md
- - [ ] T032 [US2] Define feedback events (accept/reject/edit) schema in app/ai/sidebar/feedback.md
- - [ ] T033 [US2] Specify task routing rules (query→model/procedure) in app/ai/routing/rules.md  <!-- MVP: 읽기 전용 경로 중심 -->
- - [ ] T040 [US2] Specify RAG output templates (table/bullets) and anchor rendering in app/ai/sidebar/rag-templates.md  <!-- MVP: Hybrid+TopK only -->
- - [ ] T041 [US2] Define no-evidence fallback (blur/low-confidence) behavior in app/ai/sidebar/no-evidence.md
- - [ ] T061 [US2] Define multi-query expansion strategies (2–4 variants) in app/ai/rag/mqe.md  <!-- Deferred: M2 toggle -->
- - [ ] T062 [US2] Specify hybrid retrieval (BM25 ∩ vector ∪ entity) in app/ai/rag/hybrid-retrieval.md
- - [ ] T063 [US2] Define top-50 reranking criteria in app/ai/rag/rerank-top50.md
- - [ ] T064 [US2] Specify context compression to 2–4k tokens in app/ai/rag/compression.md  <!-- Deferred: M2 toggle -->
- - [ ] T065 [US2] Wire pipeline: MQE → Hybrid → Top50 rerank → Compress → Generate in app/ai/rag/pipeline.md  <!-- MVP: Hybrid+TopK only; others M2 -->
- - [ ] T066 [US2] Define confidence thresholds T1/T2 and calibration method in app/ai/rag/confidence.md
- - [ ] T072 [US2] Configure ko unigram tokenizer + user dictionary in app/search/ko-tokenizer.md
- - [ ] T073 [P] [US2] Integrate mecab-ko-lite(wasm) option and fallback in app/search/mecab-lite.md
- - [ ] T074 [US2] Define sentence-level reranker with morph-weight features in app/ai/rerank/sentence-morph.md
- - [ ] T075 [US2] Add routing templates (WRITE/STRUCTURE/SUMMARIZE/TABLE/TIMELINE/TRANSLATE) in app/ai/routing/templates.md
+- [x] T013 [US2] Specify sidebar Q&A/요약/편집 flows in app/ai/sidebar/flows.md
+- [x] T014 [P] [US2] Specify local model detection & fallback consent flow in app/ai/sidebar/local-first.md
+- [x] T015 [US2] Define AI call logging schema in app/privacy/logs/schema.md
+ - [x] T031 [US2] Design evidence-first panel layout (snippets/refs/scores) in app/ai/sidebar/evidence.md
+ - [x] T032 [US2] Define feedback events (accept/reject/edit) schema in app/ai/sidebar/feedback.md
+ - [x] T033 [US2] Specify task routing rules (query→model/procedure) in app/ai/routing/rules.md  <!-- MVP: 읽기 전용 경로 중심 -->
+ - [x] T040 [US2] Specify RAG output templates (table/bullets) and anchor rendering in app/ai/sidebar/rag-templates.md  <!-- MVP: Hybrid+TopK only -->
+ - [x] T041 [US2] Define no-evidence fallback (blur/low-confidence) behavior in app/ai/sidebar/no-evidence.md
+ - [x] T061 [US2] Define multi-query expansion strategies (2–4 variants) in app/ai/rag/mqe.md  <!-- Deferred: M2 toggle -->
+ - [x] T062 [US2] Specify hybrid retrieval (BM25 ∩ vector ∪ entity) in app/ai/rag/hybrid-retrieval.md
+ - [x] T063 [US2] Define top-50 reranking criteria in app/ai/rag/rerank-top50.md
+ - [x] T064 [US2] Specify context compression to 2–4k tokens in app/ai/rag/compression.md  <!-- Deferred: M2 toggle -->
+ - [x] T065 [US2] Wire pipeline: MQE → Hybrid → Top50 rerank → Compress → Generate in app/ai/rag/pipeline.md  <!-- MVP: Hybrid+TopK only; others M2 -->
+ - [x] T066 [US2] Define confidence thresholds T1/T2 and calibration method in app/ai/rag/confidence.md
+ - [x] T072 [US2] Configure ko unigram tokenizer + user dictionary in app/search/ko-tokenizer.md
+ - [x] T073 [P] [US2] Integrate mecab-ko-lite(wasm) option and fallback in app/search/mecab-lite.md
+ - [x] T074 [US2] Define sentence-level reranker with morph-weight features in app/ai/rerank/sentence-morph.md
+ - [x] T075 [US2] Add routing templates (WRITE/STRUCTURE/SUMMARIZE/TABLE/TIMELINE/TRANSLATE) in app/ai/routing/templates.md
  - [ ] T067 [US2] Specify fallback behaviors (hedged/shortened, extract-only, normal) in app/ai/sidebar/fallback.md
  - [ ] T068 [US2] Design "Find more evidence" action (re-search) in app/ai/sidebar/find-more-evidence.md
  - [ ] T069 [US2] Specify "insufficient evidence" card and 3 related docs suggestion in app/ai/sidebar/insufficient.md
