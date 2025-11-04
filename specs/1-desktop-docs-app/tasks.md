@@ -129,16 +129,16 @@
  - [x] T042 [US5] Specify document version history/diff/rollback UX in app/privacy/ui/versioning.md
 
 ## Phase 10 — Testing & QA
-- [ ] T148 Define acceptance test scenarios per user story in qa/acceptance/scenarios.md
-- [ ] T149 Build conversion golden set and validators in qa/conversion/goldenset.md
-- [ ] T150 Setup performance benchmarks and 95p reporting in qa/perf/benchmarks.md
-- [ ] T151 Security/penetration checklist and test matrix in qa/security/pentest.md
-- [ ] T152 A11y tests (screen reader/focus/contrast/keyboard) in qa/a11y/tests.md
-- [ ] T153 Sync conflict cases (block 3-way) and patch-card flows in qa/sync/conflicts.md
-- [ ] T154 RAG evaluation harness and anchor coverage in qa/rag/eval.md
-- [ ] T155 FIM latency/accuracy harness in qa/fim/tests.md
-- [ ] T156 Plugin/MCP permission/denial/rate-limit tests in qa/integrations/plugins-mcp.md
-- [ ] T157 CI pipeline design and reporting in qa/ci/pipeline.md
+- [x] T148 Define acceptance test scenarios per user story in qa/acceptance/scenarios.md
+- [x] T149 Build conversion golden set and validators in qa/conversion/goldenset.md
+- [x] T150 Setup performance benchmarks and 95p reporting in qa/perf/benchmarks.md
+- [x] T151 Security/penetration checklist and test matrix in qa/security/pentest.md
+- [x] T152 A11y tests (screen reader/focus/contrast/keyboard) in qa/a11y/tests.md
+- [x] T153 Sync conflict cases (block 3-way) and patch-card flows in qa/sync/conflicts.md
+- [x] T154 RAG evaluation harness and anchor coverage in qa/rag/eval.md
+- [x] T155 FIM latency/accuracy harness in qa/fim/tests.md
+- [x] T156 Plugin/MCP permission/denial/rate-limit tests in qa/integrations/plugins-mcp.md
+- [x] T157 CI pipeline design and reporting in qa/ci/pipeline.md
 
 ## Final Phase — Polish & Cross-Cutting
 - [x] T025 Define MVP toggle defaults in app/config/feature-flags.json
