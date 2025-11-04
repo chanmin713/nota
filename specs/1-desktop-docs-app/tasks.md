@@ -80,14 +80,14 @@
  - [x] T043 [US4] Specify CRUD UX for tags/links/properties in app/ontology/ux/crud.md
  - [x] T044 [US4] Define validation/constraints (unique tags, no self-loop, property limits) in app/ontology/validation.md
  - [x] T045 [US4] Specify filter UI and acceptance criteria in app/search/filter-ui.md
- - [ ] T076 [US4] Design schema registry (versioned JSON) in app/ontology/schema/registry.md
- - [ ] T077 [US4] Specify entity types/fields/constraints extensibility in app/ontology/schema/types.md
- - [ ] T078 [US4] Define relation metadata (directionality/multiplicity/inverse) in app/ontology/schema/relations.md
- - [ ] T079 [US4] Specify namespace/IRI policy and collision handling in app/ontology/schema/namespaces.md
- - [ ] T080 [US4] Draft schema migration flow (preview→apply→rollback) in app/ontology/schema/migration.md
- - [ ] T081 [US4] Define validation engine (SHACL‑lite now, upgrade path) in app/ontology/schema/validation-engine.md
- - [ ] T082 [US4] Add inference hooks interface (save/edit events) in app/ontology/schema/inference-hooks.md
- - [ ] T083 [US4] Specify PROV recording for schema/data changes in app/ontology/schema/prov.md
+ - [x] T076 [US4] Design schema registry (versioned JSON) in app/ontology/schema/registry.md
+ - [x] T077 [US4] Specify entity types/fields/constraints extensibility in app/ontology/schema/types.md
+ - [x] T078 [US4] Define relation metadata (directionality/multiplicity/inverse) in app/ontology/schema/relations.md
+ - [x] T079 [US4] Specify namespace/IRI policy and collision handling in app/ontology/schema/namespaces.md
+ - [x] T080 [US4] Draft schema migration flow (preview→apply→rollback) in app/ontology/schema/migration.md
+ - [x] T081 [US4] Define validation engine (SHACL‑lite now, upgrade path) in app/ontology/schema/validation-engine.md
+ - [x] T082 [US4] Add inference hooks interface (save/edit events) in app/ontology/schema/inference-hooks.md
+ - [x] T083 [US4] Specify PROV recording for schema/data changes in app/ontology/schema/prov.md
 
 ## Phase 7 — [US5] Privacy & Transparency Surfaces
 ## Phase 8 — [US7] Security & Encryption
