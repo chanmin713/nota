@@ -20,7 +20,7 @@
 - [x] T010 [US1] Define editor toolbar/ribbon spec in app/editor/ui/toolbar.md
 - [x] T011 [P] [US1] Define Markdown import/export rules in app/editor/io/markdown-rules.md
 - [x] T012 [US1] Define Tab-based fill behaviors and acceptance in app/editor/assist/tab-fill.md
- - [ ] T028 [US1] Define Docx export scope and mapping in app/editor/io/docx-export.md  <!-- Gated by feature flag: docxExport (plan.md M2 기본 OFF) -->
+ - [x] T028 [US1] Define Docx export scope and mapping in app/editor/io/docx-export.md  <!-- Gated by feature flag: docxExport (plan.md M2 기본 OFF) -->
  - [x] T038 [US1] Specify hidden block engine model (blocks/inline graph) in app/editor/engine/blocks.md
  - [x] T039 [US1] Define FIM matrix (Word/Sentence/Paragraph × Tab/→/Click/Typing) in app/editor/assist/fim-matrix.md
  - [x] T055 [US1] Specify FIM inputs (prefix/suffix 300–800t) in app/editor/assist/fim-inputs.md
@@ -192,7 +192,7 @@
 
 ## Phase 12 — Distribution & OS Integration
 - [x] T163 [US1] Installer packaging and code signing in app/distribution/installer.md  <!-- keep -->
-- [ ] T164 [US1] Differential updates and rollback in app/distribution/updates.md  <!-- Deferred: M2 -->
+ - [x] T164 [US1] Differential updates and rollback in app/distribution/updates.md  <!-- Deferred: M2 -->
 - [x] T165 [US1] `.nota` MIME/icon/association and context menu in app/os/integration.md
 
 ## Phase 13 — Ops & Policies
