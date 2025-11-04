@@ -155,13 +155,13 @@
 - [x] T118 [US1] Feature toggle matrix and defaults in app/config/feature-toggles.md
 - [x] T119 [US1] Performance telemetry (local-only) and weekly 95p report in app/perf/telemetry.md
 - [x] T120 [US1] Startup time/memory budgets test plan in app/perf/startup-budgets.md
-- [ ] T121 [US4] Draft SHACL rules catalog and messages in app/ontology/shacl/catalog.md
-- [ ] T122 [US4] Define JSON Schemas for meta/document/ontology/prov in app/format/schemas.md
-- [ ] T123 [US4] Implement SHACL-lite validation flow spec in app/ontology/shacl/engine.md
-- [ ] T124 [US4] Indexer design (incremental/global) and query keys in app/search/indexer.md
-- [ ] T125 [US4] Link graph indexing and IRI alias search in app/search/link-graph.md
-- [ ] T126 [P] [US4] File conversion pipeline (PDF/PPTX/DOCX→.nota) in app/import/pipeline.md
-- [ ] T127 [US4] Evidence anchors from sources (page/slide/range) in app/import/evidence.md
+- [x] T121 [US4] Draft SHACL rules catalog and messages in app/ontology/shacl/catalog.md
+- [x] T122 [US4] Define JSON Schemas for meta/document/ontology/prov in app/format/schemas.md
+- [x] T123 [US4] Implement SHACL-lite validation flow spec in app/ontology/shacl/engine.md
+- [x] T124 [US4] Indexer design (incremental/global) and query keys in app/search/indexer.md
+- [x] T125 [US4] Link graph indexing and IRI alias search in app/search/link-graph.md
+- [x] T126 [P] [US4] File conversion pipeline (PDF/PPTX/DOCX→.nota) in app/import/pipeline.md
+- [x] T127 [US4] Evidence anchors from sources (page/slide/range) in app/import/evidence.md
 - [ ] T128 [US1] Sidebar resize interaction spec (drag handle/snap/dblclick) in app/ui/sidebar/resize.md
 - [ ] T129 [US1] Implement constraints (min/max) and keyboard resize bindings in app/ui/sidebar/constraints.md
 - [ ] T130 [US1] Persist/restore sidebar widths (global default + session) in app/ui/sidebar/state.md
