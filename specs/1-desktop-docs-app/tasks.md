@@ -191,9 +191,9 @@
 - [ ] T162 [US4] Incremental patch sync and audit logging in app/sync/incremental.md
 
 ## Phase 12 — Distribution & OS Integration
-- [ ] T163 [US1] Installer packaging and code signing in app/distribution/installer.md  <!-- keep -->
+- [x] T163 [US1] Installer packaging and code signing in app/distribution/installer.md  <!-- keep -->
 - [ ] T164 [US1] Differential updates and rollback in app/distribution/updates.md  <!-- Deferred: M2 -->
-- [ ] T165 [US1] `.nota` MIME/icon/association and context menu in app/os/integration.md
+- [x] T165 [US1] `.nota` MIME/icon/association and context menu in app/os/integration.md
 
 ## Phase 13 — Ops & Policies
 - [ ] T166 [US1] Third‑party licenses and alternatives table in legal/licenses.md
