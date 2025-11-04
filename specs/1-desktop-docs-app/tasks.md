@@ -196,18 +196,18 @@
 - [x] T165 [US1] `.nota` MIME/icon/association and context menu in app/os/integration.md
 
 ## Phase 13 — Ops & Policies
-- [ ] T166 [US1] Third‑party licenses and alternatives table in legal/licenses.md
-- [ ] T167 [US1] i18n/l10n strategy and locale rules in app/i18n/strategy.md
-- [ ] T168 [US1] Logging levels/retention and crash reporting in app/ops/logging.md
-- [ ] T169 [US1] Backup/recovery(journaling/autosave) policies in app/ops/backup.md
-- [ ] T170 [US1] Undo/redo transaction boundaries and merge rules in app/editor/undo.md
+- [x] T166 [US1] Third‑party licenses and alternatives table in legal/licenses.md
+- [x] T167 [US1] i18n/l10n strategy and locale rules in app/i18n/strategy.md
+- [x] T168 [US1] Logging levels/retention and crash reporting in app/ops/logging.md
+- [x] T169 [US1] Backup/recovery(journaling/autosave) policies in app/ops/backup.md
+- [x] T170 [US1] Undo/redo transaction boundaries and merge rules in app/editor/undo.md
 
 ## Phase 14 — Migration
-- [ ] T171 Notion export mapping (HTML/MD/CSV→.nota) in app/migration/notion.md
-- [ ] T172 Obsidian vault mapping (MD/assets→.nota) in app/migration/obsidian.md
-- [ ] T173 Google Docs Docx mapping (Docx→.nota) in app/migration/gdocs.md
-- [ ] T174 Review panel UX and report format in app/migration/review.md
-- [ ] T175 Lossy cases and fallback snapshot rules in app/migration/fallbacks.md
+- [x] T171 Notion export mapping (HTML/MD/CSV→.nota) in app/migration/notion.md
+- [x] T172 Obsidian vault mapping (MD/assets→.nota) in app/migration/obsidian.md
+- [x] T173 Google Docs Docx mapping (Docx→.nota) in app/migration/gdocs.md
+- [x] T174 Review panel UX and report format in app/migration/review.md
+- [x] T175 Lossy cases and fallback snapshot rules in app/migration/fallbacks.md
 
 ## Dependencies (Story Order)
 1) US1 Editor Core → 2) US2 AI Sidebar → 3) US3 Commands/Mentions → 4) US4 Ontology/Search → 5) US5 Privacy/Transparency
