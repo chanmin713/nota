@@ -54,11 +54,11 @@
  - [x] T073 [P] [US2] Integrate mecab-ko-lite(wasm) option and fallback in app/search/mecab-lite.md
  - [x] T074 [US2] Define sentence-level reranker with morph-weight features in app/ai/rerank/sentence-morph.md
  - [x] T075 [US2] Add routing templates (WRITE/STRUCTURE/SUMMARIZE/TABLE/TIMELINE/TRANSLATE) in app/ai/routing/templates.md
- - [ ] T067 [US2] Specify fallback behaviors (hedged/shortened, extract-only, normal) in app/ai/sidebar/fallback.md
- - [ ] T068 [US2] Design "Find more evidence" action (re-search) in app/ai/sidebar/find-more-evidence.md
- - [ ] T069 [US2] Specify "insufficient evidence" card and 3 related docs suggestion in app/ai/sidebar/insufficient.md
- - [ ] T070 [US2] Add cloud burst retry option toggle and flow in app/ai/sidebar/cloud-burst.md
- - [ ] T071 [US2] Define table/numeric query extractor-only pipeline and routing in app/ai/rag/extractor-numeric-table.md  <!-- keep -->
+ - [x] T067 [US2] Specify fallback behaviors (hedged/shortened, extract-only, normal) in app/ai/sidebar/fallback.md
+ - [x] T068 [US2] Design "Find more evidence" action (re-search) in app/ai/sidebar/find-more-evidence.md
+ - [x] T069 [US2] Specify "insufficient evidence" card and 3 related docs suggestion in app/ai/sidebar/insufficient.md
+ - [x] T070 [US2] Add cloud burst retry option toggle and flow in app/ai/sidebar/cloud-burst.md
+ - [x] T071 [US2] Define table/numeric query extractor-only pipeline and routing in app/ai/rag/extractor-numeric-table.md  <!-- keep -->
 
 ## Phase 5 — [US3] Commands and Mentions (/ · @ · Tab)
 - [ ] T016 [US3] Specify command palette commands list in app/commands/palette/commands.md
