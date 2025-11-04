@@ -133,6 +133,9 @@
 ### Phase 1: Design & Contracts (M1)
 - 마이그레이션 설계: Notion/Obsidian/GDocs 입력 형식 분석, 필드 매핑 표, 손실/대체 전략, 검토 패널 UX
 
+### Phase 1: Design & Contracts (M1)
+- 로딩 스켈레톤: 패턴 카탈로그(에디터/사이드바/리스트), aria-busy/announcement, 지표(≤150ms 최초 표시)
+
 ### Phase 2: MVP Implementation Plan (M2-ready items 제외)
 - 협업: 제안 모드/댓글만(실시간 CRDT=차기)
 - MCP: 단일 프로바이더 + 읽기 전용 도구(쓰기/변경=토글)
@@ -204,6 +207,9 @@
 
 ### Phase 2: MVP Implementation Plan (M2)
 - 마이그레이션 MVP: Notion(HTML/MD), Obsidian(MD), Google Docs(Docx) → `.nota` 변환, 결과 리포트/검토 패널
+
+### Phase 2: MVP Implementation Plan (M2)
+- 스켈레톤 컴포넌트 적용(문서 본문/사이드바/검색 패널), 지표 수집 및 리포트
 
 ## Risks & Mitigations
 - 로컬 모델 설치 난이도 → 설치 가이드/자동 감지/재시도 제공
