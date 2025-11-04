@@ -218,7 +218,7 @@
 ## Implementation Strategy
 - MVP: US1 + US2 기본 플로우, /·@·Tab 최소 기능, 약한 온톨로지 CRUD, 프라이버시 표면 최소 셋
 
-- [ ] T176 [US1] Skeleton pattern catalog (editor/sidebar/list) in app/ui/skeleton/patterns.md
-- [ ] T177 [US1] Implement aria-busy and announce loading in app/ui/skeleton/a11y.md
-- [ ] T178 [US1] Measure skeleton time-to-first-paint (≤150ms) in app/perf/skeleton-metrics.md
+- [x] T176 [US1] Skeleton pattern catalog (editor/sidebar/list) in app/ui/skeleton/patterns.md
+- [x] T177 [US1] Implement aria-busy and announce loading in app/ui/skeleton/a11y.md
+- [x] T178 [US1] Measure skeleton time-to-first-paint (≤150ms) in app/perf/skeleton-metrics.md
 
