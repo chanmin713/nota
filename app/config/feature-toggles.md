@@ -1,5 +1,4 @@
 # 기능 토글 매트릭스(초안)
 
-- docxExport: 기본 OFF (M2)
-- cloudBurst: 기본 OFF
-- mecabLite: 기본 OFF (실험)
+- 기본 OFF: docxExport, cloudBurst, mecabLite
+- 단계: MVP/M2 플래그 테이블, 로컬 config 우선

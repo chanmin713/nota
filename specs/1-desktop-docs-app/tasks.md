@@ -146,15 +146,15 @@
 - [x] T027 Add UX guardrails for ontology complexity in app/ontology/ux/guardrails.md
  - [x] T029 Add success-criteria measurement plan in specs/1-desktop-docs-app/metrics.md
  - [x] T030 Script offline AI summary timing (≤10s) scenario in specs/1-desktop-docs-app/quickstart.md
- - [ ] T084 Define `.nota` container spec and JSON schemas in app/format/spec.md
- - [ ] T085 Implement export (writer) spec: content/ontology/prov/meta in app/format/writer.md
- - [ ] T086 Implement import (reader) spec with validation in app/format/reader.md
- - [ ] T087 Specify schemaVersion strategy and migration notes in app/format/versioning.md
- - [ ] T088 Define share-safe export (strip embeddings/rag caches) in app/format/share-export.md
-- [ ] T117 [US1] Define lazy-loading plan (modules/routes) in app/perf/lazy-loading.md
-- [ ] T118 [US1] Feature toggle matrix and defaults in app/config/feature-toggles.md
-- [ ] T119 [US1] Performance telemetry (local-only) and weekly 95p report in app/perf/telemetry.md
-- [ ] T120 [US1] Startup time/memory budgets test plan in app/perf/startup-budgets.md
+- [x] T084 Define `.nota` container spec and JSON schemas in app/format/spec.md
+- [x] T085 Implement export (writer) spec: content/ontology/prov/meta in app/format/writer.md
+- [x] T086 Implement import (reader) spec with validation in app/format/reader.md
+- [x] T087 Specify schemaVersion strategy and migration notes in app/format/versioning.md
+- [x] T088 Define share-safe export (strip embeddings/rag caches) in app/format/share-export.md
+- [x] T117 [US1] Define lazy-loading plan (modules/routes) in app/perf/lazy-loading.md
+- [x] T118 [US1] Feature toggle matrix and defaults in app/config/feature-toggles.md
+- [x] T119 [US1] Performance telemetry (local-only) and weekly 95p report in app/perf/telemetry.md
+- [x] T120 [US1] Startup time/memory budgets test plan in app/perf/startup-budgets.md
 - [ ] T121 [US4] Draft SHACL rules catalog and messages in app/ontology/shacl/catalog.md
 - [ ] T122 [US4] Define JSON Schemas for meta/document/ontology/prov in app/format/schemas.md
 - [ ] T123 [US4] Implement SHACL-lite validation flow spec in app/ontology/shacl/engine.md
